@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: UNLOCKME - Win32 Uni Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Root\IMPOST~1\Temp\RSP6C5D.tmp" with contents
+[
+/nologo /Zp4 /MDd /W4 /Zi /Od /X /I "\ONLINE\UNLOCKME\DATA" /I "\ONLINE\UNLOCKME\INC" /I "\ONLINE\UNLOCKME\INC\S60" /I "\Symbian\7.0s\Series60_v20\EPOC32\INCLUDE" /D "__SYMBIAN32__" /D "__VC32__" /D "__WINS__" /D "__DLL__" /D "_DEBUG" /D "_UNICODE" /FR"\Symbian\7.0s\Series60_v20\EPOC32\BUILD\ONLINE\UNLOCKME\GROUP\S60\UNLOCKME\WINS\UDEB/" /Fo"\Symbian\7.0s\Series60_v20\EPOC32\BUILD\ONLINE\UNLOCKME\GROUP\S60\UNLOCKME\WINS\UDEB/" /Fd"\Symbian\7.0s\Series60_v20\EPOC32\RELEASE\WINS\UDEB\Z\SYSTEM\APPS\UNLOCKME\UNLOCKME.PDB" /GF /c 
+"C:\ONLINE\UNLOCKME\SRC\Phone.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Root\IMPOST~1\Temp\RSP6C5D.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Phone.cpp
+C:\ONLINE\UNLOCKME\SRC\Phone.cpp(90) : warning C4100: 'newCode' : unreferenced formal parameter
+C:\ONLINE\UNLOCKME\SRC\Phone.cpp(114) : warning C4100: 'code' : unreferenced formal parameter
+C:\ONLINE\UNLOCKME\SRC\Phone.cpp(131) : warning C4100: 'aError' : unreferenced formal parameter
+C:\ONLINE\UNLOCKME\SRC\Phone.cpp(138) : warning C4100: 'aError' : unreferenced formal parameter
+
+
+
+<h3>Results</h3>
+Phone.obj - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

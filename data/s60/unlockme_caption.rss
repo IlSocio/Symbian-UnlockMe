@@ -1,0 +1,20 @@
+/* Copyright (c) 2004, Nokia. All rights reserved */
+
+
+//  INCLUDES
+#include <apcaptionfile.rh>
+#include "unlockme.loc"
+
+
+//  RESOURCE DEFINITIONS
+// -----------------------------------------------------------------------------
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE CAPTION_DATA
+    {
+    caption = txt_caption_string;
+    shortcaption = txt_srt_caption_string;
+    }
+
+// End of File

@@ -1,0 +1,105 @@
+﻿CHARACTER_SET UTF8
+
+// Localisation
+
+// English
+#ifdef LANGUAGE_01
+#include "unlockme.l01"
+#endif
+
+
+// French
+#ifdef LANGUAGE_02
+#include "unlockme.l02"
+#endif
+
+
+// German
+#ifdef LANGUAGE_03
+#include "unlockme.l03"
+#endif
+
+
+// ********* Spanish
+#ifdef LANGUAGE_04
+#include "unlockme.l04"
+#endif
+
+
+// Italian
+#ifdef LANGUAGE_05
+#include "unlockme.l05"
+#endif
+
+
+// ********* Swedish
+#ifdef LANGUAGE_06
+#include "unlockme.l06"
+#endif
+
+
+// ********* Finnish
+#ifdef LANGUAGE_09
+#include "unlockme.l09"
+#endif
+
+
+// ********* American
+#ifdef LANGUAGE_10
+#include "unlockme.l10"
+#endif
+
+
+// Portuguese
+#ifdef LANGUAGE_13
+#include "unlockme.l13"
+#endif
+
+
+// Turkish
+#ifdef LANGUAGE_14
+#include "unlockme.l14"
+#endif
+
+
+// Russian
+#ifdef LANGUAGE_16
+#include "unlockme.l16"
+#endif
+
+
+// Dutch
+#ifdef LANGUAGE_18
+#include "unlockme.l18"
+#endif
+
+
+// Czech
+#ifdef LANGUAGE_25
+#include "unlockme.l25"
+#endif
+
+
+// Slovenian
+#ifdef LANGUAGE_28
+#include "unlockme.l28"
+#endif
+
+
+// Greek
+#ifdef LANGUAGE_54
+#include "unlockme.l54"
+#endif
+
+
+// Khmer
+#ifdef LANGUAGE_64
+#include "unlockme.l64"
+#endif
+
+
+// ********* Malese
+#ifdef LANGUAGE_70
+#include "unlockme.l70"
+#endif
+

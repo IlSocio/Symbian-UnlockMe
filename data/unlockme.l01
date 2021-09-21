@@ -1,0 +1,16 @@
+﻿CHARACTER_SET UTF8
+
+#define ELanguage               ELangEnglish
+
+#define txt_caption_string 	"UnlockMe!"
+#define txt_srt_caption_string 	"UnlockMe!"
+
+// Comuni
+#define txt_newsms		"Unlock!"
+#define txt_credits 		"Credits"
+#define txt_exit 		"Exit"
+
+#define txt_settings 		"UnlockMe!"
+
+#define txt_really_exit		"Exit from UnlockMe?"
+	

@@ -1,0 +1,97 @@
+/* Copyright (c) 2004, Nokia. All rights reserved */
+
+
+TARGET            UnlockMe.app
+TARGETTYPE        app
+UID               0x100039CE 0x1020DC98
+TARGETPATH        \system\apps\UnlockMe
+
+LANG 01
+
+SOURCEPATH        ..\..\src\s60
+SOURCE            UnlockMe.cpp
+SOURCE            UnlockMeApplication.cpp
+SOURCE            UnlockMeAppUi.cpp
+SOURCE            UnlockMeDocument.cpp
+SOURCE            SplashView.cpp
+SOURCE            SplashContainer.cpp
+SOURCE            CreditsView.cpp
+SOURCE            CreditsContainer.cpp
+SOURCE            AboutView.cpp
+SOURCE            AboutContainer.cpp
+SOURCEPATH        ..\..\src
+SOURCE            Storage.cpp
+SOURCE		  Phone.cpp
+SOURCE		  Base64.cpp
+SOURCE            TimeOutTimer.cpp
+SOURCEPATH        ..\..\data\s60
+RESOURCE          UnlockMe.rss
+RESOURCE          UnlockMe_caption.rss
+
+USERINCLUDE       ..\..\data
+USERINCLUDE       ..\..\inc
+USERINCLUDE       ..\..\inc\s60
+SYSTEMINCLUDE     \epoc32\include
+
+LIBRARY		flogger.lib 
+//gsmu.lib smsu.lib
+//LIBRARY           cntmodel.lib
+//LIBRARY     	  AknSkins.lib
+//LIBRARY 	  uiklaf.lib
+//LIBRARY           insock.lib
+//LIBRARY           eikctl.lib
+//LIBRARY           aknnotify.lib
+//LIBRARY           commonengine.lib
+//LIBRARY	esock.lib
+
+LIBRARY MediaClientAudio.lib 
+LIBRARY			 cntmodel.lib 
+LIBRARY         euser.lib
+LIBRARY         apparc.lib
+LIBRARY         cone.lib
+LIBRARY         eikcore.lib
+LIBRARY         eikcoctl.lib
+LIBRARY         avkon.lib
+LIBRARY         eikdlg.lib
+LIBRARY         eikctl.lib
+LIBRARY	euser.lib 
+LIBRARY	apparc.lib 
+LIBRARY	cone.lib 
+LIBRARY	eikcore.lib 
+LIBRARY	eikcoctl.lib 
+LIBRARY	avkon.lib
+LIBRARY	eikdlg.lib
+LIBRARY	msgs.lib	
+LIBRARY	smcm.lib
+LIBRARY	gsmu.lib	
+LIBRARY	mtur.lib
+LIBRARY	CommonEngine.lib		
+LIBRARY		fbscli.lib 
+LIBRARY         pbkview.lib
+LIBRARY         pbkeng.lib
+LIBRARY 	cone.lib
+LIBRARY		eikcore.lib
+LIBRARY		apparc.lib
+LIBRARY		etext.lib 
+LIBRARY         avkon.lib
+LIBRARY         eikcoctl.lib
+LIBRARY       	etel.lib 
+LIBRARY	      	euser.lib efsrv.lib etelmm.lib commdb.lib 
+LIBRARY       	estor.lib 
+LIBRARY 	bafl.lib
+LIBRARY		egul.lib
+//MACRO         _LOGGING
+//MACRO         _TRACE
+
+AIF  UnlockMe.aif ..\..\Aif  UnlockMeAif.rss c12 UnlockMe_cxt.bmp UnlockMe_cxt_mask.bmp UnlockMe_lst.bmp UnlockMe_lst_mask.bmp
+
+
+//bitmap
+start bitmap UnlockMe.mbm
+	targetpath \system\apps\UnlockMe
+	header
+	sourcepath ..\..\datasrc
+
+	source  c24 splash.bmp
+	source  c24 splashbg.bmp
+end

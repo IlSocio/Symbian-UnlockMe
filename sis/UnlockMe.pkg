@@ -1,0 +1,24 @@
+;
+; UnlockMe.pkg
+;
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"UnlockMe"},(0x1020DC98),1,00,0
+
+
+;Supports Series 60 v2.0 + Feature Pack 2
+(0x101F7960), 0, 0, 0, {"Series60ProductID"}
+
+"greets.txt" - "!:\system\apps\UnlockMe\greets.txt", FILETEXT, TEXTABORT
+
+
+; GUI FILES
+;"FirstBoot.dat" - "C:\system\apps\UnlockMe\FirstBoot.dat"
+"C:\Symbian\7.0s\Series60_v20\epoc32\release\armi\urel\UnlockMe.app"                    -"!:\system\apps\UnlockMe\UnlockMe.app"
+"C:\Symbian\7.0s\Series60_v20\epoc32\data\z\system\apps\UnlockMe\UnlockMe.mbm"          -"!:\system\apps\UnlockMe\UnlockMe.mbm"
+"C:\Symbian\7.0s\Series60_v20\epoc32\data\z\system\apps\UnlockMe\UnlockMe.r01"          -"!:\system\apps\UnlockMe\UnlockMe.r01"
+"C:\Symbian\7.0s\Series60_v20\epoc32\data\z\system\apps\UnlockMe\UnlockMe_caption.r01"  -"!:\system\apps\UnlockMe\UnlockMe_caption.r01"
+"C:\Symbian\7.0s\Series60_v20\epoc32\data\z\system\apps\UnlockMe\UnlockMe.aif"          -"!:\system\apps\UnlockMe\UnlockMe.aif"
+

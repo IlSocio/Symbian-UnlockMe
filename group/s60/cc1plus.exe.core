@@ -1,0 +1,22 @@
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) Exception trapped!
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) exception C0000005 at 415364
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) exception: ax 0 bx 123B4860 cx 1 dx 7C91EB94
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) exception: si 0 di 25EF5C0 bp 25EF4B4 sp 25EF3F8
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) exception is: STATUS_ACCESS_VIOLATION
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) Stack trace:
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 0: sp = 0x25EEFEC, pc = 0x1000947D
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 1: sp = 0x25EF024, pc = 0x7C9137BF
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 2: sp = 0x25EF048, pc = 0x7C91378B
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 3: sp = 0x25EF0F8, pc = 0x7C91EAFA
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 4: sp = 0x25EF4B4, pc = 0x41A730
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 5: sp = 0x25EF4F4, pc = 0x484703
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 6: sp = 0x25EF524, pc = 0x45D156
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 7: sp = 0x25EFD70, pc = 0x48F4E2
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 8: sp = 0x25EFD98, pc = 0x492E85
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 9: sp = 0x25EFDF0, pc = 0x10004410
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 10: sp = 0x25EFF90, pc = 0x10004447
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 11: sp = 0x25EFFA0, pc = 0x5C0DFA
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 12: sp = 0x25EFFB0, pc = 0x40103A
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 13: sp = 0x25EFFC0, pc = 0x7C816D4F
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) frame 14: sp = 0x25EFFF0, pc = 0x0
+(C:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\lib\gcc-lib\arm-epoc-pe\2.9-psion-98r2\cc1plus.exe 1002) End of stack trace

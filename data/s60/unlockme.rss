@@ -1,0 +1,276 @@
+/* Copyright (c) 2004, Nokia. All rights reserved */
+
+
+NAME LOCK
+
+//  INCLUDES
+#include <eikon.rh>
+#include <avkon.rh>
+#include <avkon.rsg>
+#include <unlockme.mbg> // Contiene i numeri delle icone di unlockme.mbm
+
+//#include <avkon.mbg>
+//#include <eikon.rsg>
+//#include <aknexspane.mbg>
+
+#include "unlockme.hrh"
+#include "unlockme.loc" 
+
+
+// -----------------------------------------------------------------------------
+//
+//    Define the resource file signature
+//    This resource should be empty.
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE RSS_SIGNATURE
+    {
+    }
+
+// -----------------------------------------------------------------------------
+//
+//    Default Document Name
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE TBUF r_unlockme_default_docname
+    {
+    buf="LOCK";
+    }
+
+// -----------------------------------------------------------------------------
+//
+//    Define default menu and CBA key.
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE EIK_APP_INFO
+    {
+    status_pane = r_status_pane;
+//    menubar = r_unlockme_menubar1;
+//    cba = R_AVKON_SOFTKEYS_OPTIONS_EXIT;
+    }
+
+
+// -----------------------------------------------------------------------------
+//    Status pane definition
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE STATUS_PANE_APP_MODEL r_status_pane
+{
+    panes=
+        {
+        SPANE_PANE
+            {
+            id = EEikStatusPaneUidNavi;
+            type = EAknCtNaviPane;
+			//type = EAknCtTitlePane;
+            resource = r_navi_decorator;
+            }
+        };
+}
+
+RESOURCE NAVI_DECORATOR r_navi_decorator
+    {
+    type = ENaviDecoratorControlTabGroup;
+    control = TAB_GROUP
+        {
+        tab_width = EAknTabWidthWithOneTab;
+        active = 0;
+        tabs = {
+            TAB 
+                {
+                id = EUnlockMe1Tab; 
+                txt = "";
+//				bmpfile = "\\system\\apps\\unlockme\\unlockme.mbm";
+//				bmpid =	EMbmunlockmeAbout;
+//				bmpmask = EMbmunlockmeAbout_mask;
+                }
+//            TAB
+  //              {
+   //             id = EUnlockMe2Tab;
+//               txt = txt_tab2;
+//				bmpfile = "\\system\\apps\\unlockme\\unlockme.mbm";
+//				bmpid =	EMbmunlockmeSettings;
+//				bmpmask = EMbmunlockmeSettings_mask;
+ //               }
+            };
+        };
+    }
+
+
+
+RESOURCE AVKON_VIEW r_unlockme_view_credits
+    {
+    menubar = r_unlockme_menubar0;
+    cba = R_AVKON_SOFTKEYS_BACK;
+    }
+
+
+RESOURCE MENU_BAR r_unlockme_menubar0
+    {
+        titles =
+        {
+            MENU_TITLE
+            {
+            }
+        };
+    }
+
+
+// -----------------------------------------------------------------------------
+//
+//    r_unlockme_view1
+//    Define view 1
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE AVKON_VIEW r_unlockme_view1
+    {
+    menubar = r_unlockme_menubar1;
+    cba = R_AVKON_SOFTKEYS_OPTIONS_EXIT;
+    }
+
+// -----------------------------------------------------------------------------
+//
+//   r_unlockme_menubar1
+//   Menu title definition
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE MENU_BAR r_unlockme_menubar1
+    {
+        titles =
+        {
+            MENU_TITLE
+            {
+                menu_pane = r_unlockme_menu1;
+            }
+        };
+    }
+
+// -----------------------------------------------------------------------------
+//
+//   r_unlockme_menu1
+//   Menu for "Options"
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE MENU_PANE r_unlockme_menu1
+    {
+        items =
+        {
+            MENU_ITEM
+            {
+                command = ENewSms;
+                txt = txt_newsms;
+            },
+            MENU_ITEM
+            {
+                command = ECredits;
+                txt = txt_credits;
+            },
+            MENU_ITEM
+            {
+                command = EAknSoftkeyExit;
+                txt = txt_exit;
+            }
+        };
+    }
+
+
+
+
+// -----------------------------------------------------------------------------
+//
+//    r_unlockme_view2
+//    Define view 2
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE AVKON_VIEW r_unlockme_view2
+    {
+    menubar = r_unlockme_menubar2;
+    cba = R_AVKON_SOFTKEYS_OPTIONS_BACK;
+    }
+
+// -----------------------------------------------------------------------------
+//
+//   r_unlockme_menubar2
+//   Menu title definition
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE MENU_BAR r_unlockme_menubar2
+    {
+        titles =
+        {
+            MENU_TITLE
+            {
+                menu_pane = r_unlockme_menu2;
+            }
+        };
+    }
+
+// -----------------------------------------------------------------------------
+//
+//   r_unlockme_menu2
+//   Menu for "Options"
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE MENU_PANE r_unlockme_menu2
+    {
+    items =
+        {
+            MENU_ITEM
+            {
+                command = ESend;
+                txt = txt_send;
+            },
+            MENU_ITEM
+            {
+                command = EAknSoftkeyExit;
+                txt = txt_exit;
+            }
+        };
+    }
+
+
+
+RESOURCE DIALOG r_really_exit
+{
+	flags = EGeneralQueryFlags;
+	buttons = R_AVKON_SOFTKEYS_YES_NO;
+	items =
+	{
+	DLG_LINE
+		{
+		type = EAknCtQuery;
+		id = EGeneralQuery;
+		control = AVKON_CONFIRMATION_QUERY
+			{
+			layout = EConfirmationQueryLayout;
+			label = txt_really_exit;
+			//bmpfile = AKNEXQUERY_BMPFILE_NAME;
+			//bmpid = 0;
+			//bmpmask = AKNEXQUERY_BITMAP_MASK_FLAG;
+			};
+		}
+	};
+}
+
+
+// -----------------------------------------------------------------------------
+//
+// Resources for messages.
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE TBUF32 r_about    { buf=UnlockMe; }
+
+
+
+

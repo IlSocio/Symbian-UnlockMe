@@ -1,0 +1,13 @@
+UnlockMe! 1.00 - Series60
+(C) Copyright Marco Bellino
+2006 - Italy
+
+http://www.symbian-toys.com
+
+For suggestions, informations or bugs report, write to: 
+m.bellino@symbian-toys.com
+
+DISCLAIMER:
+L'autore declina ogni responsabilita' in merito all'utilizzo del software e ad eventuali danni arrecati, di qualsiasi natura essi siano.
+
+Proseguendo con l'installazione l'utente dichiara di aver preso visione del presente documento e di accettare le condizioni riportate.

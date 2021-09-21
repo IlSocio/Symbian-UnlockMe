@@ -1,0 +1,49 @@
+
+
+#ifndef __UnlockMe_HRH__
+#define __UnlockMe_HRH__
+
+// MultiViews enumerate command codes
+enum TUnlockMeCommandIds
+    {
+// Vista Settings
+    ESend = 1,
+
+// Vista About
+    EDonate,
+
+// Comandi Comuni
+    ECredits,
+
+	ENewSms
+    };
+
+
+
+enum TUnlockMeDlgLineId		// dialog line ids
+    {
+    EToId = 1,
+	EMessageId
+    };
+
+
+// These enumerations are declared here since they are used 
+// also in the .rss file.
+enum TUnlockMeConstants
+    { 
+    EMaxTelephoneNumberLength = 15,		// max telephone number length
+    EMaxMessageLength = 160			// max SMS message length (standard)
+    };
+
+
+// Tab ID.
+enum TUnlockMeTabId
+    {
+    EUnlockMe1Tab= 1,
+    EUnlockMe2Tab
+    };
+
+
+#endif // __MULTIVIEWS_HRH__
+
+// End of File
